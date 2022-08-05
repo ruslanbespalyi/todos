@@ -1,0 +1,17 @@
+nav {
+	margin-top: 10px;
+}
+
+.button-language {
+	border: 0;
+	color: gray;
+}
+
+.button-language-space {
+	margin-left: 50px;
+}
+
+.button-language-active {
+	color: black;
+	font-weight: bold;
+}

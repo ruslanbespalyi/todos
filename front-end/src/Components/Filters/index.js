@@ -1,30 +1,24 @@
-import { FILTERS } from "../../utils";
+import { useTranslation } from 'react-i18next';
 
-import "./styles.css";
+import { FILTERS } from '../../utils';
+
+import './styles.css';
 
 const FiltersBar = ({ setFilterType }) => {
-  return (
-    <div className="filters-bar">
-      <button
-        className="filters-bar__btn"
-        onClick={() => setFilterType(FILTERS.ALL)}
-      >
-        All
-      </button>
-      <button
-        className="filters-bar__btn"
-        onClick={() => setFilterType(FILTERS.DONE)}
-      >
-        Done
-      </button>
-      <button
-        className="filters-bar__btn"
-        onClick={() => setFilterType(FILTERS.TODO)}
-      >
-        Todo
-      </button>
-    </div>
-  );
+	const { t } = useTranslation();
+	return (
+		<div className='filters-bar'>
+			<button className='filters-bar__btn' onClick={() => setFilterType(FILTERS.ALL)}>
+				{t('list.filters.all')}
+			</button>
+			<button className='filters-bar__btn' onClick={() => setFilterType(FILTERS.DONE)}>
+				{t('list.filters.done')}
+			</button>
+			<button className='filters-bar__btn' onClick={() => setFilterType(FILTERS.TODO)}>
+				{t('list.filters.todo')}
+			</button>
+		</div>
+	);
 };
 
 export default FiltersBar;

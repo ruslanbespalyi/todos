@@ -1,0 +1,140 @@
+{
+	"list": {
+		"menu": {
+			"list": "List",
+			"profile": "Profile",
+			"admin": "Administration",
+			"logOut": "Log out"
+		},
+		"welcome": "Welcome",
+		"create": {
+			"head": "Create todo",
+			"title": "Title",
+			"placeholder": "Enter text todo",
+			"submit": "Submit"
+		},
+		"head": "List todo",
+		"filters": {
+			"all": "All",
+			"done": "Done",
+			"todo": "Todo"
+		},
+		"edit": {
+			"head": "Edit todo",
+			"title": "Title",
+			"placeholder": "Enter text todo",
+			"cancel": "Cancel",
+			"save": "Save"
+		},
+		"share": {
+			"edit": {
+				"head": "Share todo with users",
+				"optionUser": "Select user email",
+				"cancel": "Cancel",
+				"save": "Save"
+			},
+			"view": {
+				"head": "View shared todo",
+				"owner": "Owner",
+				"shareWith": "Shared with"
+			}
+		},
+		"messages": {
+			"success": {
+				"todoCreated": "Todo successfully created",
+				"todoUpdated": "Todo successfully updated",
+				"todoShared": "Todo successfully shared",
+				"todoRemoved": "Todo successfully deleted"
+			},
+			"faild": {
+				"todoCreated": "Faild todo created",
+				"todoUpdated": "Faild todo updated",
+				"todoShared": "Faild todo shared",
+				"todoRemoved": "Faild todo deleted"
+			}
+		}
+	},
+	"admin": {
+		"menu": {
+			"users": "Users",
+			"todos": "Todos",
+			"myTodos": "My todos",
+			"logOut": "Log out"
+		},
+		"users": {
+			"head": "Admin panel users",
+			"searchLabel": "Search",
+			"placeholder": "enter user email",
+			"newUser": "New",
+			"user": {
+				"firstName": "First name",
+				"firstNamePlaceholder": "Enter first name",
+				"lastName": "Last name",
+				"lastNamePlaceholder": "Enter last name",
+				"email": "Email",
+				"emailPlaceholder": "Enter email",
+				"password": "Password",
+				"passwordPlaceholder": "Enter password",
+				"confirm": "Confirm",
+				"confirmPlaceholder": "Enter confirm password",
+				"dateOfBirth": "Date of birth",
+				"dateOfBirthPlaceholder": "Enter date of birth",
+				"isAdmin": "Is admin"
+			},
+			"create": {
+				"head": "Create user",
+				"save": "Create",
+				"cancel": "Cancel"
+			},
+			"edit": {
+				"head": "Edit user",
+				"save": "Save",
+				"cancel": "Cancel"
+			},
+			"messages": {
+				"success": {
+					"create": "User successfully created",
+					"update": "User successfully updated",
+					"delete": "User successfully deleted"
+				},
+				"faild": {
+					"create": "Faild user created",
+					"update": "Faild user updated",
+					"delete": "Faild user deleted"
+				}
+			}
+		},
+		"todos": {
+			"head": "Admin panel todos",
+			"allTodos": "All todos",
+			"userTodo": "Todo by user",
+			"todo": {
+				"text": "Text",
+				"owner": "Owner",
+				"sharedWith": "Shared with",
+				"sharedWithNot": "No shared users",
+				"create": "Create",
+				"update": "Update",
+				"isCompleted": "Is completed"
+			},
+			"view": {
+				"head": "View todo"
+			},
+			"edit": {
+				"head": "Edit todo",
+				"save": "Save",
+				"cancel": "Cancel"
+			},
+			"messages": {
+				"success": {
+					"todoUpdated": "Todo successfully updated",
+					"todoRemoved": "Todo successfully deleted"
+				},
+				"faild": {
+					"todoUpdated": "Faild todo updated",
+					"todoRemoved": "Faild todo deleted"
+				}
+			}
+		}
+	}
+}
